@@ -1,0 +1,18 @@
+"""Protocol constants shared with the TV app (see docs/PROTOCOL.md)."""
+
+PROTO_VERSION = 1
+DEFAULT_PORT = 47800
+DISCOVERY_PORT = 47801
+MDNS_TYPE = "_tvconnect._tcp.local."
+DISCOVER_MAGIC = b"TVC_DISCOVER 1"
+ADB_DEFAULT_PORT = 5555
+
+T_CONTROL = 0x01
+T_VIDEO = 0x02
+T_INPUT = 0x03
+
+VF_KEY = 0x01
+VF_CONFIG = 0x02
+
+MAX_RECORD = 16 * 1024 * 1024
+GCM_TAG = 16

@@ -1,0 +1,30 @@
+[project]
+name = "tvconnect-desktop"
+version = "0.1.0"
+description = "TVconnect desktop client: LAN remote desktop for Android TV"
+requires-python = ">=3.10"
+dependencies = [
+  "PySide6>=6.6",
+  "av>=12",
+  "zeroconf>=0.130",
+  "cryptography>=42",
+  "keyring>=24",
+  "numpy>=1.26",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "pyinstaller>=6"]
+
+[project.scripts]
+tvconnect = "tvconnect_desktop.app:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["tvconnect_desktop*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=TVconnect
+Comment=LAN remote desktop for Android TV
+Exec=TVconnect
+Terminal=false
+Categories=Network;RemoteAccess;

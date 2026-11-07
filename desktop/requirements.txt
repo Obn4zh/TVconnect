@@ -1,0 +1,6 @@
+PySide6>=6.6
+av>=12
+zeroconf>=0.130
+cryptography>=42
+keyring>=24
+numpy>=1.26

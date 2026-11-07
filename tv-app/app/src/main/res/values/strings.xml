@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TVconnect</string>
+    <string name="a11y_label">TVconnect — удалённое управление</string>
+    <string name="a11y_description">Позволяет управлять телевизором с вашего компьютера в локальной сети: нажатия, прокрутка, ввод текста, кнопки Назад/Домой. Работает только после того, как вы подтвердили подключение компьютера на этом ТВ.</string>
+</resources>

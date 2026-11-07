@@ -1,0 +1,16 @@
+# Python
+desktop/.venv/
+desktop/build/
+desktop/dist/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+# Android / Gradle
+tv-app/.gradle/
+tv-app/build/
+tv-app/app/build/
+tv-app/local.properties
+.idea/
+*.iml
+build/
+*.log
